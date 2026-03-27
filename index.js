@@ -16,7 +16,8 @@ app.use(cors({
   origin: function(origin, callback) {
     const allowedOrigins = [
       'http://localhost:5173',
-      'https://pictacadverse.vercel.app'
+      'https://pictacadverse.vercel.app',
+      'https://pict-acadeversefrontend.vercel.app'
     ];
     
     // Allow all Vercel preview deployments
